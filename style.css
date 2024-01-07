@@ -20,10 +20,8 @@ body{
 .box {
     display:flex;
     margin: auto;
-    place-content: center;
     border-radius: 5px;
     overflow: hidden;
-    flex-shrink: 1;
     box-shadow: 1px 1px 7px #cccbcb;
 }
 
@@ -49,10 +47,6 @@ body{
 .card-separate {
     display: grid;
     gap: 30px;
-}
-
-.card-img{
-    display: block;
 }
 
 .card-title {
@@ -98,6 +92,10 @@ body{
     place-self: end center;
     color: #4d4c4c;
     text-align: center;
+}
+
+.attribution a {
+    color: #181717;
 }
 
 @media screen and (max-width: 950px){
