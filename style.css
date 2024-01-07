@@ -49,6 +49,10 @@ body{
     gap: 30px;
 }
 
+.card-img {
+    max-width: 100%;
+}
+
 .card-title {
     font-family: 'Big Shoulders Display', sans-serif;
     font-size: 38px;
